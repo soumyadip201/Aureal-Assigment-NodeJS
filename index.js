@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const animalRoutes = require("./routes/animalRoutes");
 
 const app = express();
-app.use(express.json()); // Middleware to parse JSON
+app.use(express.json());
 
 // Connect to MongoDB
 mongoose
